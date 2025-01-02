@@ -21,7 +21,7 @@ const Header = ({ searchQuery, setSearchQuery }) => {
   return (
     <nav className="bg-blue-500 text-white">
       <div className="flex justify-between items-center p-4">
-        {/* Logo */}
+        <img src="/country-location-icon.png" alt="logo" />
         <Link to="/" className="text-xl font-bold">
           Country Info
         </Link>
